@@ -1,5 +1,7 @@
 # MediShare: Revolutionizing Healthcare with Blockchain and AI
 
+![WhatsApp Image 2025-04-06 at 21 56 37_730244e7](https://github.com/user-attachments/assets/638d2fcb-6f3b-4c9b-a849-a1bbd3d4d44e)
+
 Welcome to **MediShare**, an innovative platform designed to transform healthcare by integrating blockchain technology, generative AI, and real-time communication. Our mission is to enhance patient care, ensure medication authenticity, and foster a collaborative health community.
 
 ## Table of Contents
@@ -109,6 +111,11 @@ Example: A user asks, “Can I donate expired medicine?” — the chatbot fetch
 - **Medicine Donation:**  
   Register as a donor or recipient. Post available medicines or list needs, and let our donation matching engine connect you with government hospitals, NGOs, or individuals for safe, verified medicine transactions.
 
+![WhatsApp Image 2025-04-06 at 21 57 49_af1926f4](https://github.com/user-attachments/assets/7950cad9-3029-44bf-8302-12f890ca6f83)
+![WhatsApp Image 2025-04-06 at 21 58 42_fc796bbf](https://github.com/user-attachments/assets/78c23c0f-c0f6-4ac1-8c6f-17d633124f75)
+![WhatsApp Image 2025-04-06 at 22 02 48_c66e2b95](https://github.com/user-attachments/assets/d32082fc-b663-407b-8752-a801710e07c1)
+![WhatsApp Image 2025-04-06 at 22 03 20_84031096](https://github.com/user-attachments/assets/9383bbaf-2839-433d-8ae4-5fd04c813e24)
+
 
 ## License
 
@@ -123,3 +130,4 @@ For collaboration, questions, or further information, please reach out:
 
 Join us in redefining healthcare. With MediShare, every medical report is simplified, every medication verified, and every donation transparently managed. Let's build a healthier future—together.
 ``` 
+
