@@ -55,6 +55,25 @@ Our smart scanning feature enables users to:
 
 *Example*: A person with surplus medication can list it on the platform, allowing nearby hospitals or individuals to claim and utilize it appropriately.
 
+### 4. AI-Powered Chatbot (RAG-Based)
+MediShare includes an intelligent Retrieval-Augmented Generation (RAG) based chatbot to enhance user interaction and support. This chatbot is capable of:
+
+Context-Aware Assistance: Understands platform policies, user queries, and donation workflows.
+
+Real-Time Recommendations: Provides suggestions based on available medicines in the donation database, ensuring accurate and up-to-date information.
+
+Document + Data Integration: Combines knowledge from uploaded reports and live backend data to offer highly personalized responses.
+
+🔧 Powered By:
+
+Groq API with Gamma Model: For fast and efficient natural language understanding.
+
+FAISS Vector Database: To index and retrieve contextual data from donation records and policies.
+
+LLaMA Embeddings: Used to convert textual data (like reports and medicines) into vector format for smarter retrieval.
+
+Example: A user asks, “Can I donate expired medicine?” — the chatbot fetches policy context and responds accurately. Or, if asked, “Which painkillers are currently available for donation?” — it checks live data and replies accordingly.
+
 ## Technology Stack
 
 - **Frontend**: React.js
