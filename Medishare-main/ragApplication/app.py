@@ -60,7 +60,8 @@ def setup_chatbot():
     # --- Load MongoDB Medicine Documents --- #
     def fetch_mongo_documents():
         try:
-            MONGO_URI = "mongodb+srv://Priyansh:saintlaurant@cluster0.lqebd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            MONGO_URI = os.environ.get("MONGO_URI")
+            
             client = MongoClient(MONGO_URI)
             collection = client["test"]["medicines"]
             medicines = list(collection.find())
@@ -92,7 +93,7 @@ def setup_chatbot():
     retriever = global_vectorstore.as_retriever()
 
     # --- Initialize LLM --- #
-    groq_api_key = os.environ.get("GROQ_API_KEY", "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")
+    groq_api_key = os.environ.get("GROQ_API_KEY")
     llm = ChatGroq(
         groq_api_key=groq_api_key,
         model="llama3-8b-8192"
